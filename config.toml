@@ -1,0 +1,58 @@
+baseurl = "/"
+title = "Winter Cove Foundation"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "Mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author]
+  name = "Lewis Levin"
+  bio = ""
+  avatar = ""
+
+[Params]
+  description = "Mission and themes" # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false
+  pager = false
+  post_meta = ["date", "categories"] # Order of post meta information
+
+[Params.logo]
+  subtitle = "Mission and Themes" # Logo subtitle
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["categories", "recent",  "taglist", "search",]
+
+[Params.style.vars]
+  highlightColor = "#4040d2" # Override highlight color
+  fontFamilyPrimary = "'Times New Roman', Garamond, serif"
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
