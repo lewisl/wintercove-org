@@ -7,7 +7,6 @@ author: Lewis Levin
 menu: main
 ---
 
- 
 The mission of Winter Cove foundation is to:
  
 - Support programs and research that improve conditions for greater tolerance among diverse religious, ethnic, socio-economic, or cultural communities;
