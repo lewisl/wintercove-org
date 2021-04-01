@@ -19,6 +19,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   authorbox = false
   pager = false
   post_meta = ["date", "categories"] # Order of post meta information
+  customCSS = ["css/changes.css"]  # place in static of overall site, not in themes
 
 [Params.logo]
   subtitle = "Mission and Themes" # Logo subtitle
