@@ -1,16 +1,18 @@
-# Hugo folders to ignore
-public/**
+# Hugo 
+public/*
 /node_modules/
-resources/_gen/**
+resources/_gen/*
 
 # Visual Studio Code
-.vscode/    # project metadata
-.history/   # local history
+.vscode/*    # project metadata
+.history/*   # local history
 
+# OS
 .DS_Store
 
 # other miscellaneous build and project directories
 .*/
 
-*.txt # information to me only
+# information to me only
+*.txt 
 
